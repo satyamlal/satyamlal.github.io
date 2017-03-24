@@ -1,0 +1,81 @@
+.blur {
+  -webkit-animation: blur 5s linear forwards;
+  -moz-animation: blur 5s linear forwards;
+  -ms-animation: blur 5s linear forwards;
+  -o-animation: blur 5s linear forwards;
+  animation: blur 5s linear forwards;
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  animation-delay: 5s;
+}
+.delay {
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  animation-delay: 3s;
+}
+@-webkit-keyframes blur {
+  to {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+  }
+}
+@-moz-keyframes blur {
+  to {
+    -moz-filter: blur(5px);
+    filter: blur(5px);
+  }
+}
+@keyframes blur {
+  to {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    filter: blur(5px);
+  }
+}
+
+h1 {
+    font-family: tahoma;
+	position: absolute;
+	text-align: center;
+	color: red;
+	right: 0;
+	left: 0;
+	top: 10vh;
+
+}
+
+h2{
+	color:white;
+	text-align: center;
+	position: absolute;
+	top: 50vh;
+	right: 0;
+	left: 0;
+}
+
+h3{
+	color:white;
+	text-align: center;
+	position: absolute;
+	top: 85vh;
+	right: 0;
+	left: 0;
+}
+
+h4{
+	color:white;
+	text-align: center;
+	position: absolute;
+	top: 120vh;
+	right: 0;
+	left: 0;
+}
+
+h5{
+	color:white;
+	text-align: center;
+	position: absolute;
+	top: 120vh;
+	right: 0;
+	left: 0;
+}
